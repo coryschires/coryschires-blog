@@ -1,0 +1,313 @@
+/*
+          		 dark gray: #333 (font color)
+          		 darker gray: #b9b9b9 (recent work dates)
+          		 light gray: #e0e0e0 (footer bg)
+				 bright green: #b8d30b (nav selected state)
+          		 dark green: #95a105 (links)		 
+*/
+/*------------------------------------------------------------------------------------------------------------------
+                                                      RESET                    
+------------------------------------------------------------------------------------------------------------------*/
+*					        	    { margin: 0; padding: 0; }
+html				        		{ overflow-y: scroll; }
+html, body			        		{ height: 100%; }
+body			        			{ font-size: 62.5%; font-family: Helvetica, Arial, sans-serif; color: #333; }
+ul				        			{ list-style: disc inside; padding-left: 10px; }
+ol				         			{ list-style: decimal inside; padding-left: 10px; }
+li                                  { list-style-position: outside;}
+a					          		{ outline: none; text-decoration: none; }
+a img			        			{ border: none; background: none; }
+img							        { vertical-align: middle; }
+table						        { border-collapse: collapse; }
+p							        { margin-top: 10px; }
+textarea							{ resize: none; }									  
+input:focus, textarea:focus 		{ outline: none; }
+
+/*------------------------------------------------------------------------------------------------------------------
+                                                      UTILITY                    
+------------------------------------------------------------------------------------------------------------------*/
+.clear 								{ clear: both; }
+.clear_n_pad 						{ clear: both; padding-top: 20px;}
+.float_right 						{ float: right; }
+.float_left 						{ float: left; }
+.hidden				                { display: none; }
+.bold 								{ font-weight: bold; }
+.unbold 							{ font-weight: normal; }
+.italic								{ font-style: italic; }
+.unitalic							{ font-style: normal; }
+.gray_out 							{ color: #b9b9b9; }
+.green 								{ color: #95a105; }
+.bright_green 						{ color: #b8d30b; }
+.title_link 						{ font-weight: bold; }
+.clear_n_space						{ clear: both; height: 20px; }
+
+/*------------------------------------------------------------------------------------------------------------------
+                                                      TYPOGRAPHY                    
+------------------------------------------------------------------------------------------------------------------*/
+p, li								{ font-size: 12px; line-height: 18px; margin: 0 0 10px 0; letter-spacing: 1.3px; }
+a, a:visited						{ color: #95a105; }
+a:hover								{ text-decoration: underline; }
+.btn_link a							{ text-decoration: underline; font-size: 11px;}
+.btn_link a:hover					{ text-decoration: none; }
+h1									{ font-size: 3.6em; }
+h2									{ font-size: 28px; margin: 20px 0 4px 0; }
+h3									{ font-size: 2.7em; margin: 20px 0 10px 0; }
+h4									{ font-size: 2.0em; margin-bottom: 15px; }
+
+
+/*------------------------------------------------------------------------------------------------------------------
+                                                  STRUCTURE / HEADER                   
+------------------------------------------------------------------------------------------------------------------*/
+#page_wrap 							{ width: 915px; margin: auto; }
+#header		 						{ padding: 163px 0 0 0; }
+#header h1							{ font-size: 89px; }
+#header p							{ font-size: 24px; width: 505px; padding: 5px 0 14px 0; line-height: 30px;}
+hr									{ background: #e0e0e0; height: 6px; border: none; margin-bottom: 15px; }
+
+.download                           { display: block; text-transform: uppercase; letter-spacing: 0.5px; background: url(images/download.png) no-repeat; padding-left: 19px; width: 285px; margin: 25px 0 15px 0; }
+.processing_canvas                  { border: 4px #333 solid; padding: 3px; margin: 20px 0; }
+
+/*------------------------------------------------------------------------------------------------------------------
+                                                  VALIDATION ERRORS                    
+------------------------------------------------------------------------------------------------------------------*/
+label.error 						{ font-family: Georgia, serif; font-size: 9px; color: #c91c1c; position: absolute; top: 2px; right: 5px;}
+
+
+/*------------------------------------------------------------------------------------------------------------------
+                                                      HIRE ME FORM                    
+------------------------------------------------------------------------------------------------------------------*/
+#hire_me_tab 						{ background: url(images/contact_me_tab.png) 0 0; width: 48px; height: 126px; display: block;
+									  position: fixed; top: 180px;}
+#hire_me_tab:hover 					{ background: url(images/contact_me_tab.png) -48px 0; }
+#hire_me_content 					{ padding: 10px; }
+#hire_me_content hr 				{ margin-bottom: 30px;}
+#hire_me_content h1 				{ font-size: 51px !important; }
+#hire_me_content p.sub_header		{ font-size: 18px; width: 350px; padding-top: 5px; }
+#hire_me_content .form_description	{ width: 235px; float: left; margin-right: 35px; font-size: 14px; }
+#hire_me_content .form_description p{ font-size: 14px; }
+#hire_me_content form				{ width: 210px; float: left; }
+
+.short_lightbox 					{ height: 400px !important; }
+
+#hire_me_textfield_name 			{ background: url(images/contact/text_field_bg.png); position: relative;
+									  width: 252px; height: 35px; margin-bottom: 10px; }
+#hire_me_textfield_email 			{ background: url(images/contact/text_field_bg.png); position: relative;
+									  width: 252px; height: 35px; margin-bottom: 10px; }
+#hire_me_textarea 					{ background: url(images/contact/textarea_bg.png); position: relative;; 
+									  width: 256px; height: 140px; }
+#hire_me_content form input 		{ border: none; padding: 3px; margin: 6px 4px 4px 4px; width: 234px; font-size: 12px; color: #333;}
+#hire_me_content form textarea 		{ border: none; padding: 3px; margin: 6px 4px 4px 6px; width: 234px; height: 120px; 
+									  font-size: 12px; font-family: inherit; color: #333; }
+#hire_me_content #hire_me_send 		{ color: #95a105; font-size: 14px; text-decoration: underline; position: absolute;
+									  width: 40px; height: 20px; z-index: 100; bottom: 35px; right: 18px; background: none;
+									  cursor: pointer;}
+#hire_me_content #hire_me_send:hover{ text-decoration: none; }
+
+
+/*------------------------------------------------------------------------------------------------------------------
+                                                      NAVIGATION
+------------------------------------------------------------------------------------------------------------------*/
+#nav								{ list-style: none; float: right; margin-top: 35px;}
+#nav li								{ display: inline; margin: 0; padding: 0;}
+#nav li a, #nav li a:visited 		{ font-weight: bold; color: #333; padding: 35px 20px 30px 15px; font-size: 14px;}
+#nav li a:hover 					{ background: #b8d30b; color: white; text-decoration: none; }
+#nav li a span						{ margin-right: 20px; }
+#nav li a.selected 					{ background: #b8d30b; color: white; }
+
+
+/*------------------------------------------------------------------------------------------------------------------
+                                                      RESUME PAGE
+------------------------------------------------------------------------------------------------------------------*/
+#resume_page 						{ padding: 10px 10px 0 10px; width: }
+#resume_page h1 					{ font-size: 51px !important; }
+#resume_page p.sub_header			{ font-size: 18px; width: 350px; padding-top: 5px; }
+#resume_page hr 					{ margin-bottom: 30px; clear: both; }
+
+#resume_page div.resume_item 		{ width: 480px; height: 80px; margin-bottom: 10px; }
+#resume_page div.last 				{ margin-bottom: 0px; }
+#resume_page img 					{ float: left; display: block; margin: -13px 10px 0 0; }
+#resume_page p 						{ float: left; width: 385px; font-size: 14px;}
+#resume_page span 					{ display: block; margin-top: 5px; font-size: 12px; }
+
+
+/*------------------------------------------------------------------------------------------------------------------
+                                                        HOME                    
+------------------------------------------------------------------------------------------------------------------*/
+#slideshow 			 				{ margin-top: 36px; width: 598px; height: 309px; position: relative; }
+#slideshow img		 				{ position: absolute; top: 0; left: 0; z-index: 8; opacity: 0.0; }
+#slideshow img.active 				{ z-index:10; opacity: 1.0; }
+#slideshow img.last-active 			{ z-index:9; }
+.column_one							{ float: left; width: 285px; margin-right: 30px; }
+.column_two							{ float: left; width: 285px; margin-right: 30px; }
+.column_three						{ float: right; width: 285px; }
+#latest_posts div 					{ font-size: 12px; line-height: 1.2em; margin: 0 0 10px 0; letter-spacing: 1.3px; }
+#latest_posts div span.excerpt p	{ display: inline; margin: 0; padding: 0; }
+
+
+/*------------------------------------------------------------------------------------------------------------------
+                                                       PORTFOLIO                    
+------------------------------------------------------------------------------------------------------------------*/
+.portfolio_example 					{ width: 212px; float: left; margin: 28px 22px 0 0; }
+.fourth 							{ margin-right: 0; }
+.portfolio_example img 				{ width: 212px; height: 220px; clear: both;}
+.portfolio_example p.title a 		{ font-size: 16px; font-weight: bold; display: block; margin-top: 19px;}
+.portfolio_example p.title a 		{ font-size: 16px; font-weight: bold; display: block; margin-top: 19px;}
+.portfolio_example p.title a:hover 	{ text-decoration: underline;}
+
+/*hover_msg plugin css*/
+.hover_caption 						{ background: url(images/hover_msg/bg.png);}
+h3.hover_caption_caption			{ letter-spacing: 2px; line-height: 25px; }
+.portfolio_example a:hover 			{ text-decoration: none; }
+
+
+/*------------------------------------------------------------------------------------------------------------------
+                                                         BLOG                    
+------------------------------------------------------------------------------------------------------------------*/
+/*structure*/
+#blog_page 							{ float: left; }
+#blog_page hr 						{ margin: 10px 0 55px 0; width: 590px; }
+.post 								{ width: 590px; margin-bottom: 45px;}
+.post h2 a, .post h2 a:visited 		{ color: #333; font-size: 34px; line-height: 40px; }
+.post p.post_date					{ color: #b9b9b9; margin: -5px 0 25px 0; }
+.post h2.single_post_title 			{ font-size: 34px; line-height: 40px; }
+.post h3							{ font-size: 20px; margin: 30px 0 5px 0; }
+.post ul, .post ol 					{ padding-left: 17px; }
+p#other_entries						{ font-size: 14px; text-align: center; }
+p#other_entries a, 
+p#other_entries a:visited			{ text-decoration: underline; }
+p#other_entries a:hover				{ text-decoration: none; }
+
+/*comment form*/
+#respond 							{ font-size: 20px; margin-top: 55px; }
+#commentform                        { margin-top: 12px; }
+#commentform p			 			{ position: relative; }
+#commentform p.text_field 			{ background: url(images/text_field.png); width: 188px; height: 37px; float: left; margin-right: 13px; }
+#commentform p.text_field.last      { margin-right: 0; }
+#commentform p.textarea 			{ width: 586px; min-height: 171px; border: 2px solid #e0e0e0; position: relative; }
+#commentform p.textarea span.corner { position: absolute; width: 5px; height: 5px; }
+#commentform p.textarea span.tr     { background: url(images/textarea/tr.png); top: -2px; right: -2px; }
+#commentform p.textarea span.tl     { background: url(images/textarea/tl.png); top: -2px; left: -2px; }
+#commentform p.textarea span.br     { background: url(images/textarea/br.png); bottom: -2px; right: -2px; }
+#commentform p.textarea span.bl     { background: url(images/textarea/bl.png); bottom: -2px; left: -2px; }
+#commentform p input				{ width: 164px; margin: 9px 0 0 9px; padding: 2px; border: none; color: #333; font-size: 12px;}
+#commentform p textarea				{ width: 562px; height: 145px; margin: 9px 0 0 9px; padding: 0 2px 2px; line-height: 18px;
+									  font-family: inherit; font-size: 12px; border: none; color: #333; }
+/*buttons*/
+#commentform #buttons               { float: right; margin-right: 10px; }
+#commentform #buttons #submit       { color: #95a105; font-size: 14px; text-decoration: underline; cursor: pointer; width: 50px; height: 20px; background: none; margin: 0; }
+#commentform #buttons #preview      { font-size: 14px; text-decoration: none; margin-right: 15px; }
+#commentform #buttons #preview:hover { text-decoration: none; }
+
+/*comments*/
+h3#comments 						{ font-size: 20px; border-bottom: 6px solid #e0e0e0; padding-bottom: 12px; }
+ul#comments_list 					{ list-style: none; padding: 0; width: 590px; }
+ul#comments_list li					{ border-bottom: 6px solid #E0E0E0; padding: 15px 0 10px; margin: 0; }
+ul#comments_list li p.comment_date,
+ul#comments_list li small.commentmetadata 	{ float: right; color: #b9b9b9; margin: 0; font-size: 12px; line-height: 18px; }
+ul#comments_list li cite 			{ font-style: normal; float: right; padding-right: 10px; font-weight: bold; }
+
+/*comment replies*/
+ul#comments_list .comment-childs    { border-top: 3px solid #e0e0e0; margin: 25px 0 0 30px; padding-top: 15px; }
+
+/*comment previews*/
+#comment_preview                    { clear: both; }
+#comment_preview hr                 { margin: 0 0 15px 0; }
+
+/*search page*/
+h2.search_title 					{ font-size: 34px; margin-bottom: 25px; }
+#search_results  					{ border-top: #e0e0e0 3px solid; margin-bottom: 20px; }
+#search_results h3 					{ margin-top: 10px; }
+#search_results h3 a				{ color: #333; }
+#blog_page hr.search_results_hr 	{ margin: 0 0 20px 0; }
+#no_search_results	 				{ width: 590px; float: left; }
+#no_search_results h3	 			{ font-size: 40px; }
+#no_search_results img 				{ width: 373px; height: 348px; margin: 0 0 0 175px; }
+#blog_page hr.no_search_results 	{ margin: 0; }
+
+/*post styling*/
+blockquote 							{ background: #e0e0e0; }
+blockquote p 						{ padding: 15px; }
+.code_text 							{ font-family:"Consolas","Monaco","Courier New",Courier, monospace !important; 
+									  font-size:10px !important; font-style:normal !important; font-weight:normal !important; 
+									  color: #666 !important; }
+/*numbered headers*/
+.post h4                            { font-size: 16px; margin: 20px 0 6px 0; }
+.post h4 span                       { background: #e0e0e0; padding: 4px 5px 1px; margin-right: 5px; font-size: 14px; }
+
+/*------------------------------------------------------------------------------------------------------------------
+                                                        SIDEBAR                    
+------------------------------------------------------------------------------------------------------------------*/
+/*search field/form*/
+#searchform 						{ position: absolute; margin: -60px 0 0 700px; }
+#searchform input 					{ width: 225px; margin: 9px 0 0 9px; padding: 2px; border: none; }
+#search_field 						{ background: url(images/search_field.png); width: 246px; height: 37px; margin: -14px 0 0 -50px; }
+#searchform #searchsubmit	 		{ color: #95a105; font-size: 12px; text-decoration: underline; position: absolute; width: 50px; height: 25px; z-index: 10; bottom: 8px; right: 9px;  background: none; }
+#searchform #searchsubmit:hover		{ text-decoration: none; }
+
+/*sidebar*/
+ul#sidebar 							{ width: 265px; float: right; list-style: none; margin-top: -9px; }
+ul#sidebar h2 						{ font-size: 20px; margin: 30px 0 10px; }
+ul#sidebar .ctc a					{ line-height: 28px; word-spacing: 5px;}
+ul#sidebar .ctc	div					{ word-spacing: 3px;}
+
+ul#sidebar p.see_link 				{ text-decoration: none; font-weight: bold; float: right; font-size: 11px;}
+ul#sidebar p.see_link a:hover		{ text-decoration: none; }
+ul#sidebar p.see_link a span		{ text-decoration: underline; font-weight: normal;}
+ul#sidebar p.see_link a span:hover	{ text-decoration: none; }
+/*------------------------------------------------------------------------------------------------------------------
+                                                      404 ERROR                    
+------------------------------------------------------------------------------------------------------------------*/
+#error_page_wrap	 				{ position: relative; height: 360px; }
+#error_page_wrap h3	 				{ font-size: 40px; }
+#error_page_wrap img 				{ position: absolute; bottom: -40px; right: 100px; width: 373px; height: 348px; }
+
+/*------------------------------------------------------------------------------------------------------------------
+                                                      FOOTER                    
+------------------------------------------------------------------------------------------------------------------*/
+#footer 							{ background: #e0e0e0; height: 55px; margin: 40px auto 0 auto ; }
+#footer_wrap 						{ width: 915px; margin: auto; }
+#footer p 							{ float: left; margin-top: 24px; }
+#footer ul 							{ list-style: none; float: right; margin-top: 14px; }
+#footer ul li 						{ display: inline; padding: 5px; }
+img.icon			 				{ width: 32px; height: 32px; }
+
+/*------------------------------------------------------------------------------------------------------------------
+                                                  CONDITIONAL CSS                    
+------------------------------------------------------------------------------------------------------------------*/
+.win.ie .syntaxhighlighter { font-size: 11px !important; }
+.win.ie .syntaxhighlighter div { font-size: 11px !important; }
+.win.ie .syntaxhighlighter code { font-size: 11px !important; }
+.win.ie .syntaxhighlighter span { font-size: 11px !important; }
+
+.win.ie7 #hire_me_tab { left: 0px;}
+.win.ie7 #nav { margin-top: 0px; }
+.win.ie7 #nav li a { display: block; float: left; margin-right: 4px;}
+.win.ie7 #footer { margin: 180px 0 -55px 0;}
+.win.ie7 .portfolio_example a div { width: 212px !important; height: 221px !important; }
+
+.win.ie7 #commentform p input { margin-top: 7px; border: 0px white solid; }
+.win.ie7 #commentform p textarea { margin-top: 7px; border: 0px white solid; overflow-y: hidden; font-family: Arial, sans-serif;}
+
+.win.ie7 #searchform { position: absolute; margin: -60px 0 0 110px; width: 200px;}
+.win.ie7 #search_field input { width: 170px; margin-left: 58px; margin-top: 8px; border: white 0px solid;}
+
+#hire_me_content form input { border: white 0px solid; }
+#hire_me_content form textarea { border: white 0px solid; overflow-y: hidden; font-family: Arial, sans-serif;}
+
+.win.ff3 .syntaxhighlighter { font-size: 11px !important; }
+.win.ff3 .syntaxhighlighter div { font-size: 11px !important; }
+.win.ff3 .syntaxhighlighter code { font-size: 11px !important; }
+.win.ff3 .syntaxhighlighter span { font-size: 11px !important; }
+
+/*------------------------------------------------------------------------------------------------------------------
+                                                STYLE FOR BLOG POSTS
+------------------------------------------------------------------------------------------------------------------*/
+/*quote rotator plugin*/
+ul#quotes { list-style: none; width: 350px; margin: 25px 0 35px 100px; cursor: pointer; }
+ul#quotes li { background: #e0e0e0; padding-bottom: 10px; }
+ul#quotes li blockquote p { padding-bottom: 0; }
+ul#quotes li cite { margin: -35px 0 0 20px; }
+
+/*swap value plugin*/
+#swap_value_demo { margin: 30px 0 30px 178px;  }
+#swap_value_demo input { border: 2px solid #8c8c8c; padding: 6px; display: block; margin-bottom: 5px; width: 200px; font-size: 13px; }

@@ -1,0 +1,12 @@
+void setup() {
+	size(255,255);
+	smooth();
+	background(224);
+}
+
+void draw() {
+	strokeWeight(mouseX*0.02)
+	stroke(mouseX+mouseY/4,mouseX/6,mouseY/2);
+	fill( mouseX+mouseY/2,mouseX,mouseY );
+	ellipse(125, 125, 90+(mouseY*0.50), 90+(mouseY*0.50));	
+}
