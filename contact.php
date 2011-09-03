@@ -40,8 +40,7 @@ Template Name: Contact
 					WordPress, PHP, MySQL, Redmine, Unix, and more. I specialize in Ruby on Rails, jQuery, and AJAX.
 				</p>
 				<p>
-					I'm fast, friendly, and <span class="green">know&shy;ledgeable</span>. I work for $40 per hour with some 
-					flexibility depending on the assignment.
+					I'm fast, friendly, and <span class="green">know&shy;ledgeable</span>.
 				</p>
 				<p class="btn_link">
 					<a href="<?php bloginfo('stylesheet_directory'); ?>/resume/cory_schires_resume.pdf">Download my complete resume &raquo;</a>

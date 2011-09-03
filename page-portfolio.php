@@ -8,7 +8,7 @@ Template Name: Portfolio
 
 <div class="portfolio_example">
     <a href="<?php bloginfo('stylesheet_directory'); ?>/images/mfc/about.png" rel="prettyPhoto[mfc_gal]" title="My Florida County - About">
-		<img class="msg" src="<?php bloginfo('stylesheet_directory'); ?>/images/my_florida_county_preview.jpg" alt="My Florida County" />
+		<img class="msg" src="<?php bloginfo('stylesheet_directory'); ?>/images/mfc/preview.jpg" alt="My Florida County" />
     </a>
     <a href="<?php bloginfo('stylesheet_directory'); ?>/images/mfc/official_records.png" rel="prettyPhoto[mfc_gal]" title="My Florida County - Official Records"></a>
     <a href="<?php bloginfo('stylesheet_directory'); ?>/images/mfc/home.png" rel="prettyPhoto[mfc_gal]" title="My Florida County - Home"></a>
@@ -20,13 +20,15 @@ Template Name: Portfolio
 	</p>
 	<p>
 		Built with Java, jQuery, and MySQL.<br />
-		<span class="gray_out">Ongoing</span>	
+		<span class="gray_out">November 2011</span>	
 	</p>
 </div><!--portfolio_example-->
 
+
+
 <div class="portfolio_example">
     <a href="<?php bloginfo('stylesheet_directory'); ?>/images/fg/home.png" rel="prettyPhoto[fg_gal]" title="Foreclosure Grove - Home">
-    	<img class="msg" src="<?php bloginfo('stylesheet_directory'); ?>/images/foreclosure_grove_preview.jpg" alt="Foreclosure Grove" />
+    	<img class="msg" src="<?php bloginfo('stylesheet_directory'); ?>/images/fg/preview.jpg" alt="Foreclosure Grove" />
     </a>
     <a href="<?php bloginfo('stylesheet_directory'); ?>/images/fg/signup.png" rel="prettyPhoto[fg_gal]" title="Foreclosure Grove - Signup"></a>
     <a href="<?php bloginfo('stylesheet_directory'); ?>/images/fg/listings.png" rel="prettyPhoto[fg_gal]" title="Foreclosure Grove - Listings"></a>
@@ -43,40 +45,53 @@ Template Name: Portfolio
 	</p>
 </div><!--portfolio_example-->
 
+
+
 <div class="portfolio_example">
-    <a href="<?php bloginfo('stylesheet_directory'); ?>/images/bg/homepage.jpg" rel="prettyPhoto[bg_gal]" title="Banzuly &amp; Golden - Home">
-		<img class="msg" src="<?php bloginfo('stylesheet_directory'); ?>/images/banzuly_preview.jpg" alt="Banzuly &amp; Golden" />
+    <a href="<?php bloginfo('stylesheet_directory'); ?>/images/radio/newsletters.png" rel="prettyPhoto[radio_gal]" title="Radio-Info - Newsletters">
+		  <img class="msg" src="<?php bloginfo('stylesheet_directory'); ?>/images/radio/preview.jpg" alt="Banzuly &amp; Golden" />
     </a>
-    <a href="<?php bloginfo('stylesheet_directory'); ?>/images/bg/letterhead.png" rel="prettyPhoto[bg_gal]" title="Banzuly &amp; Golden - Letterhead"></a>
-    <a href="<?php bloginfo('stylesheet_directory'); ?>/images/bg/services.jpg" rel="prettyPhoto[bg_gal]" title="Banzuly &amp; Golden - Services"></a>
+    <a href="<?php bloginfo('stylesheet_directory'); ?>/images/radio/home.png" rel="prettyPhoto[radio_gal]" title="Radio-Info - Homepage"></a>
+    <a href="<?php bloginfo('stylesheet_directory'); ?>/images/radio/lightbox_signup.png" rel="prettyPhoto[radio_gal]" title="Radio-Info - Lightbox Signup"></a>
+    <a href="<?php bloginfo('stylesheet_directory'); ?>/images/radio/charts.png" rel="prettyPhoto[radio_gal]" title="Radio-Info - Charts"></a>
 
-	<p class="title"><a class="new_window" href="http://lawyersforemployees.com/">Banzuly &amp; Golden</a></p>
-	<p>Banzuly &amp; Golden is a long&shy;standing employment law firm located in Chicago.</p>
+	<p class="title"><a class="new_window" href="http://radio-info.com/">Radio-Info</a></p>
+	<p>Radio-Info is an application that published radio-related news, editorials, and statistics.</p>
 	<p>
-		Site and content management system built with Ruby on Rails, jQuery, and SQLite.<br />
-		<span class="gray_out">July 2009</span>	
+    Built with Ruby on Rails, jQuery, Rspec, and SQL. Design by Andrew Wilson.<br />
+		<span class="gray_out">Aug 2010</span>	
 	</p>
 </div><!--portfolio_example-->
 
-<div class="portfolio_example fourth">
-    <a href="<?php bloginfo('stylesheet_directory'); ?>/images/wim_winner/congrats.png" rel="prettyPhoto[wim_winner]" title="Wimbledon Winner - Congratulations"> 
-    	<img class="msg" src="<?php bloginfo('stylesheet_directory'); ?>/images/wim_winner_preview.png" alt="Wimbledon Winner" />
-    </a>
-    <a href="<?php bloginfo('stylesheet_directory'); ?>/images/wim_winner/admin.png" rel="prettyPhoto[wim_winner]" title="Wimbledon Winner - Admin Interface"></a>
 
-	<p class="title"><a class="new_window" href="http://www.wimbledonwinner.com/">Wimbledon Winner</a></p>
-	<p>Wimbledon Winner is a promotional contest site built for Hill &amp; Knowlton.</p>
+
+
+<div class="portfolio_example last">
+    <a href="<?php bloginfo('stylesheet_directory'); ?>/images/lvv/evolutionary-theory.png" rel="prettyPhoto[lvv_gal]" title="Leigh Van Valen - Evolutionary Theory">
+		  <img class="msg" src="<?php bloginfo('stylesheet_directory'); ?>/images/lvv/preview.jpg" alt="Banzuly &amp; Golden" />
+    </a>
+    <a href="<?php bloginfo('stylesheet_directory'); ?>/images/lvv/about.png" rel="prettyPhoto[lvv_gal]" title="Leigh Van Valen - About"></a>
+    <a href="<?php bloginfo('stylesheet_directory'); ?>/images/lvv/home.png" rel="prettyPhoto[lvv_gal]" title="Leigh Van Valen - Homepage"></a>
+
+	<p class="title"><a class="new_window" href="http://leighvanvalen.com/">Leigh Van Valen</a></p>
 	<p>
-		Built with Ruby on Rails, Ajax, jQuery, and SQLite.<br />
-		<span class="gray_out">March 2010</span>	
+	  Leigh Van Valen was an evolutionary biologist best know for the Red Queen's hypothesis. This site publishes his 
+	  papers, making his work freely available to download for the first time.
+	</p>
+	<p>
+    Built with Wordpress and jQuery.<br />
+		<span class="gray_out">January 2011</span>	
 	</p>
 </div><!--portfolio_example-->
+
+
+
 
 <div class="clear_n_space"></div>
 
 <div class="portfolio_example">
     <a href="<?php bloginfo('stylesheet_directory'); ?>/images/wck/tuition_report.png" rel="prettyPhoto[wck_gal]" title="Windy City Kids - Tuition Report">
-    	<img class="msg" src="<?php bloginfo('stylesheet_directory'); ?>/images/windy_city_kids_preview.jpg" alt="Windy City Kids" />
+    	<img class="msg" src="<?php bloginfo('stylesheet_directory'); ?>/images/wck/preview.jpg" alt="Windy City Kids" />
     </a>
     <a href="<?php bloginfo('stylesheet_directory'); ?>/images/wck/validations.png" rel="prettyPhoto[wck_gal]" title="Windy City Kids - Validations"></a>
     <a href="<?php bloginfo('stylesheet_directory'); ?>/images/wck/waitlist.png" rel="prettyPhoto[wck_gal]" title="Windy City Kids - Waitlist"></a>
@@ -95,7 +110,7 @@ Template Name: Portfolio
 
 <div class="portfolio_example">
     <a href="<?php bloginfo('stylesheet_directory'); ?>/images/svn/home.png" rel="prettyPhoto[svn_gal]" title="Squid vs Ninjas - Home">
-    	<img class="msg" src="<?php bloginfo('stylesheet_directory'); ?>/images/squid_vs_ninjas_preview.jpg" alt="Squid vs Ninjas" />
+    	<img class="msg" src="<?php bloginfo('stylesheet_directory'); ?>/images/svn/preview.jpg" alt="Squid vs Ninjas" />
     </a>
     <a href="<?php bloginfo('stylesheet_directory'); ?>/images/svn/night.jpg" rel="prettyPhoto[svn_gal]" title="Squid vs Ninjas - Night Scene"></a>
     <a href="<?php bloginfo('stylesheet_directory'); ?>/images/svn/single_page.png" rel="prettyPhoto[svn_gal]" title="Squid vs Ninjas - Single Post Page"></a>
@@ -108,9 +123,27 @@ Template Name: Portfolio
 	</p>
 </div><!--portfolio_example-->
 
+
 <div class="portfolio_example">
+  <a href="<?php bloginfo('stylesheet_directory'); ?>/images/3dm/about.png" rel="prettyPhoto[3dm_gal]" title="Three Dog Marketing - About">
+    <img class="msg" src="<?php bloginfo('stylesheet_directory'); ?>/images/3dm/preview.jpg" alt="Three Dog Marketing" />
+  </a>
+  <a href="<?php bloginfo('stylesheet_directory'); ?>/images/3dm/home.png" rel="prettyPhoto[3dm_gal]" title="Three Dog Marketing - Home"></a>
+  <a href="<?php bloginfo('stylesheet_directory'); ?>/images/3dm/blog_single.png" rel="prettyPhoto[3dm_gal]" title="Three Dog Marketing - Single Post Page"></a>
+  <a href="<?php bloginfo('stylesheet_directory'); ?>/images/3dm/services.png" rel="prettyPhoto[3dm_gal]" title="Three Dog Marketing - Services"></a>
+
+  <p class="title"><a class="new_window" href="http://www.threedogmarketing.com/">Three Dog Marketing</a></p>
+  <p>Three Dog Marketing helps small business increase revenue and diversify their clientele by offering a wide variety of marketing services.</p>
+  <p>
+    Built with Wordpress and jQuery.<br />
+    <span class="gray_out">November 2010</span>	
+  </p>
+</div><!--portfolio_example-->
+
+
+<div class="portfolio_example last">
     <a href="<?php bloginfo('stylesheet_directory'); ?>/images/img_map/home.png" rel="prettyPhoto[im_gal]" title="Image Mapper - Home">
-    	<img class="msg" src="<?php bloginfo('stylesheet_directory'); ?>/images/image_mapper_preview.png" alt="Image Mapper" />
+      <img class="msg" src="<?php bloginfo('stylesheet_directory'); ?>/images/img_map/preview.png" alt="Image Mapper" />
     </a>
     <a href="<?php bloginfo('stylesheet_directory'); ?>/images/img_map/report_bug.png" rel="prettyPhoto[im_gal]" title="Image Mapper - Report Bug"></a>
 
@@ -121,5 +154,9 @@ Template Name: Portfolio
 		<span class="gray_out">January 2010</span>	
 	</p>
 </div><!--portfolio_example-->
+
+
+
+
 
 <?php get_footer(); ?>
